@@ -12,6 +12,7 @@ import UserManagerment from "../containers/admin/Dashboard/UserManagerment";
 import AddUser from "../containers/admin/Dashboard/UserManagerment/AddUser";
 import HomeDetailPhim from "../components/Home_DetailPhim";
 import Booking from "../components/Booking";
+// import Login from "./../containers/authHome/signIn/index";
 //Mảng chứa các route
 const routesHome = [
   {
@@ -34,6 +35,11 @@ const routesHome = [
     exact: false,
     component: Booking,
   },
+  // {
+  //   path: "/login",
+  //   exact: false,
+  //   component: Login,
+  // },
 ];
 
 const routesAdmin = [
